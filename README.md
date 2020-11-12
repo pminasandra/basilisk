@@ -9,7 +9,7 @@ This game uses `tty` and `termios` to run a version of the classic game Snake on
 - Move it to `~/bin/` and rename it simply to `basilisk`.
 - Make the file executable using
   ```chmod +x basilisk```
-- The directory `~/bin/` needs to be part of your `$PATH`. It usually is, so don't worry. If it isn't, find out how to add it.
+- The directory `~/bin/` needs to be part of your `$PATH`. It usually is, so don't worry. If it isn't, add it with `PATH=$PATH:/home/<username>/bin/`.
 
 ## Playing
 Just run the command `basilisk` from anywhere, and use the arrow keys to control. 
