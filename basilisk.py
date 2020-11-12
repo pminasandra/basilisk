@@ -10,7 +10,7 @@ import select
 DIR_DICT = {"\x1b[A":"UP", "\x1b[B":"DOWN", "\x1b[D":"LEFT", "\x1b[C":"RIGHT"}
 OLD_DIR_DICT = DIR_DICT.copy()
 
-CELL_HT = 25
+CELL_HT = 15
 CELL_WD = 25
 
 BOUNDARY_CHAR = "\033[0;43m \033[0;39m"
